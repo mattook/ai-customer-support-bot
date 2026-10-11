@@ -1,10 +1,6 @@
-# MY COPY
 # Production-Grade RAG AI Customer Support Bot for Slack
 
-A high-fidelity, enterprise-ready RAG (Retrieval-Augmented Generation) customer support system built in Python. This bot utilizes a custom document crawler, semantic chunking, `pgvector` for vector storage, OpenAI for embeddings, Anthropic Claude-3.5-Haiku for generation, and Slack Bolt for real-time team communication.
-
-It prioritizes strict probabilistic guardrails, low-latency asynchronous processing, and robust reliability over low-code shortcuts.
-
+A high-fidelity, enterprise-ready RAG (Retrieval-Augmented Generation) customer support system built in Python. This bot utilizes a custom document crawler, semantic chunking, `pgvector` for vector storage, OpenAI for embeddings, Anthropic Claude-3.5-Haiku for generation, Jev for escalation, and Slack Bolt for real-time team communication.
 ---
 
 ## Architecture & Tech Stack
@@ -64,6 +60,8 @@ SLACK_BOT_TOKEN=xoxb-your-slack-bot-token
 SLACK_SIGNING_SECRET=your-slack-signing-secret
 OPENAI_API_KEY=sk-your-openai-api-key
 ANTHROPIC_API_KEY=sk-ant-your-claude-api-key
+TYPESAFE_API_KEY=your-typesafe-api-key
+SCRAPE_URL=http://website-to-scrape.com
 DATABASE_URL=postgresql://username:password@localhost:5432/your_database_name
 ```
 
