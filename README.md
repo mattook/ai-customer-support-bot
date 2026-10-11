@@ -111,5 +111,3 @@ Copy your active HTTPS forwarding URL (e.g., `https://xxxx-xxxx.ngrok-free.app`)
    @YourBotName how do I reset my API key?
    ```
 3. The system will asynchronously fetch relevant documentation snippets from `pgvector`, evaluate confidence via the Jev gate, query Claude-3.5-Haiku, and reply directly inside the thread.
-
-Distributed under the MIT License.
